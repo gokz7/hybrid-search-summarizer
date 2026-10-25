@@ -1,0 +1,11 @@
+datasets
+pandas
+pyarrow
+numpy
+bm25s
+sentence-transformers
+faiss-cpu
+google-genai
+python-dotenv
+rouge-score
+streamlit

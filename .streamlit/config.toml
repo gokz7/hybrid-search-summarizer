@@ -1,0 +1,14 @@
+# Streamlit theme: newsprint paper, ink text, editor's red for citations and buttons.
+[theme]
+base = "light"
+primaryColor = "#B3261E"
+backgroundColor = "#EEEDE8"
+secondaryBackgroundColor = "#E3E1DA"
+textColor = "#1C1C1A"
+font = "serif"
+
+# Do not scan installed libraries for file changes. The scan imports parts of "transformers"
+# we never use (they need torchvision) and fills the terminal with errors.
+# Side effect: after editing app.py, stop (Ctrl+C) and start Streamlit again to see the change.
+[server]
+fileWatcherType = "none"

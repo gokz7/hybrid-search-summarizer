@@ -1,0 +1,8 @@
+# Secrets - never upload
+.env
+.streamlit/secrets.toml
+
+# Local Python environment and cache files
+venv/
+__pycache__/
+*.pyc
